@@ -1,0 +1,4 @@
+instalando as dependencias
+
+npm install express body-parser mongoose node-restful mongoose-paginate lodash express-query-int pm2 --save
+
