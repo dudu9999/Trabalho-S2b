@@ -9,6 +9,6 @@ angular.module('primeiroApp').config([
       url: "/cicloCompra",
       templateUrl: "cicloCompra/tabs.html"
     })
-      $urlRouterProvider.outherwise('/dashboard')
+      $urlRouterProvider.otherwise('/dashboard')
   }
 ])

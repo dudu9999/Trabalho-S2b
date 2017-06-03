@@ -21,7 +21,7 @@ gulp.task('app.css', function(){
 })
 
 gulp.task('app.js', function(){
-  gulp.src('app**/*.js')
+  gulp.src('app/**/*.js')
   .pipe(babel({presets: ['es2015']}))
   .pipe(uglify())
   .pipe(concat('app.min.js'))
