@@ -1,26 +1,18 @@
-<!--<a href="#" class="logo">
-<span class="logo-mini"><b>P</b>AP</span>
-<span class="logo-lg"><i class='fa fa-leaf'></i> <b>Pimeiro</b>APP</span>
-</a>
 
-
-<nav class="navbar navbar-static-top">
-  <a href class="sidebar-toggle" data-toggle="offcanvas"></a>
-</nav>
--->
 <div class="header-top-strip">
   <div class="container">
     <div class="header-top-left">
       <ul>
-        <li><a href="account.html"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
-        <li><a href="register.html"><span class="glyphicon glyphicon-lock"> </span>Criar conta</a></li>
-        <li><a href="anuncio.html"><span class="glyphicon glyphicon-plus-sign"></span> Inserir anuncio</a></li>
+        <li><a ui-sref="login"><span class="glyphicon glyphicon-user" > </span>Login</a></li>
+        <li><a ui-sre="register"><span class="glyphicon glyphicon-lock"> </span>Criar conta</a></li>
+        <li><a ui-sre="anuncio"><span class="glyphicon glyphicon-plus-sign"></span> Inserir anuncio</a></li>
       </ul>
     </div>
     <div class="header-right">
         <div class="cart box_1">
           <a href="checkout.html">
-            <h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)<img src="assets/images/bag.png" alt=""></h3>
+            <h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)<span class="glyphicon glyphicon-shopping-cart
+" alt=""></h3>
           </a>
           <p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
           <div class="clearfix"> </div>
@@ -42,7 +34,7 @@
       <span class="icon-bar"></span>
     </button>
   <div class="logo">
-    <h1><a href="home.html"><span>T</span>rocaFácil</a></h1>
+    <h1><a ui-sre="dashboard"><span>T</span>rocaFácil</a></h1>
 
   </div>
 </div>
@@ -124,7 +116,7 @@
         <option value="outrosArte">Usados</option>
       </optgroup>
       </select>
-      <a href="anuncio.html"><span class="glyphicon glyphicon-search"></span> Buscar</a>
+      <a ui-sre="anuncio"><span class="glyphicon glyphicon-search"></span> Buscar</a>
       <div>
 
     </div>
@@ -137,7 +129,7 @@
 
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-<li><a href="home.html">Home</a></li>
+<li><a ui-sre="dashboard">Home</a></li>
       <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Moda<b class="caret"></b></a>
           <ul class="dropdown-menu multi-column columns-2">

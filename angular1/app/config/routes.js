@@ -8,7 +8,22 @@ angular.module('primeiroApp').config([
     }).state('cicloCompra',{
       url: "/cicloCompra",
       templateUrl: "cicloCompra/tabs.html"
+    }).state('login', {
+      url: "/login",
+      templateUrl: "cicloCompra/account.html"
+    }).state('register', {
+      url: "/register",
+      templateUrl: "cicloCompra/register.html"
+    }).state('anuncio', {
+      url: "/anuncio",
+      templateUrl: "cicloCompra/anuncio.html"
     })
+
+
+
+
+
+
       $urlRouterProvider.otherwise('/dashboard')
   }
 ])
