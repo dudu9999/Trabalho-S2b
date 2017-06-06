@@ -17,13 +17,10 @@ angular.module('primeiroApp').config([
     }).state('anuncio', {
       url: "/anuncio",
       templateUrl: "cicloCompra/anuncio.html"
+    }).state('checkout', {
+      url: "/checkout",
+      templateUrl: "cicloCompra/checkout.html"
     })
-
-
-
-
-
-
-      $urlRouterProvider.otherwise('/dashboard')
+    $urlRouterProvider.otherwise('/dashboard')
   }
 ])
