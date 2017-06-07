@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Troca Facil</title>
-    <!--<link rel="stylesheet" href="assets/css/deps.min.css"> -->
     <link rel="stylesheet" href="assets/css/app.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/component.css">
@@ -12,35 +11,10 @@
 
     <script type="text/javascript" src="/assets/js/deps.min.js"></script>
     <script type="text/javascript" src="/assets/js/app.min.js"></script>
+    <script type="text/javascript" src="config/account.js"></script>
      <script type="text/javascript" src="/assets/js/jquery.flexisel.js"></script>
   </head>
   <body>
-    <script>$(window).load(function() {
-    $("#flexiselDemo3").flexisel({
-      visibleItems: 4,
-      animationSpeed: 1000,
-      autoPlay: true,
-      autoPlaySpeed: 3000,
-      pauseOnHover: true,
-      enableResponsiveBreakpoints: true,
-        responsiveBreakpoints: {
-          portrait: {
-            changePoint:480,
-            visibleItems: 1
-          },
-          landscape: {
-            changePoint:640,
-            visibleItems: 2
-          },
-          tablet: {
-            changePoint:768,
-            visibleItems: 3
-          }
-        }
-      });
-  });
-   </script>
-
     <div class="wrapper">
         <header class="main-header" ng-include="'/template/header.html'"></header>
         <div class="content-wrapper" ui-view></div>
